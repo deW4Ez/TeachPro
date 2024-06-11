@@ -1,0 +1,19 @@
+.container{
+  @apply flex flex-col gap-3 border border-white rounded-lg py-6 px-8;
+
+  .title{
+    @apply text-center text-2xl font-bold;
+  }
+
+  .link{
+    @apply flex flex-row gap-4 cursor-pointer justify-between bg-[#342B39] p-2 rounded-md;
+  }
+
+  .activation{
+    @apply text-green-500 text-center;
+  }
+
+  .description{
+    @apply text-center font-bold;
+  }
+}

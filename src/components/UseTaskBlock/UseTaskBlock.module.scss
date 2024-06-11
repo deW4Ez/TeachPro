@@ -1,0 +1,33 @@
+.container{
+  @apply flex flex-col gap-3 border border-white rounded-lg py-6 px-8;
+
+  .subContainer{
+    @apply flex flex-col gap-1;
+  }
+
+  h1{
+    @apply text-xl;
+  }
+
+  input{
+    @apply bg-[#151117] px-4 py-1 w-full rounded;
+    border: 1px solid #fff    
+  }
+
+  input[type="date"]{
+    @extend input;
+    @apply w-1/2;
+  }
+
+  input[type="submit"]{
+    @apply bg-[#3F5437] border-none cursor-pointer;
+
+    &:hover{
+     @apply bg-[#2a3825];
+    }
+
+    &:active{
+      opacity: 50%;
+    }
+  }
+}

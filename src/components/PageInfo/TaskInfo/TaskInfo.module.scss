@@ -1,0 +1,11 @@
+.container{
+  @apply flex flex-col gap-10 items-center bg-[#342B39] h-full px-2 py-8 rounded-md;
+
+  h1{
+    @apply text-2xl font-bold;
+  }
+
+  .tasksBlock{
+    @apply px-10 w-full;
+  }
+}

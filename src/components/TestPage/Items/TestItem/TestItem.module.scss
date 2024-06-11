@@ -1,0 +1,48 @@
+.container{
+  @apply flex flex-col w-full bg-[#342B39] gap-4 rounded-md px-10 py-7;
+
+  .edit{
+    @apply flex flex-row-reverse p-0 m-0;
+
+    .check{
+      @apply flex p-2 rounded-full cursor-pointer;
+      &:hover{
+        @apply bg-[#584961]
+      }
+      &:active{
+        opacity: 60%;
+      }
+    }
+  }
+
+  .questBlockText{
+    @apply flex flex-col gap-2;
+
+    input{
+      @apply flex w-full p-2 bg-[#342B39] border border-white rounded-md;
+    } 
+  }
+
+  .questBlock{
+    @apply flex flex-col gap-4;
+
+    h1{
+      @apply text-xl
+    }
+
+    .right{
+      @apply text-[#61d467];
+    }
+    .input{
+      @apply flex flex-row gap-4 w-full py-3 rounded px-2;
+    
+      &:hover{
+        @apply bg-[#514955];
+      }
+      &:active{    
+        opacity: 50%;
+      }
+    }
+  }
+}
+

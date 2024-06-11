@@ -1,0 +1,20 @@
+.container{
+  @apply flex flex-row justify-between gap-4 w-full p-2 rounded;
+
+  .subContainer{
+    @apply flex flex-row items-center gap-4;
+  }
+
+  &_chosen{
+    @extend .container;
+    @apply bg-[#605565];
+  }
+
+  &:hover{
+    @apply bg-[#605565] cursor-pointer;
+  }
+
+  &:active{
+    opacity: 50%;
+  }
+}

@@ -1,0 +1,33 @@
+.container{
+  @apply flex flex-row items-center justify-between px-2 py-2 rounded-md;
+
+  .subContainer{
+    @apply flex flex-row gap-4 items-center;
+
+    .dataBlock{
+      @apply flex flex-col;
+  
+      .name{
+        
+      }
+  
+      .subject{
+        @apply font-bold;
+      }
+    }
+
+  }
+
+  &_chosen{
+    @extend .container;
+    @apply bg-[#605565];
+  }
+
+  &:hover{
+    @apply bg-[#605565] cursor-pointer;
+  }
+
+  &:active{
+    opacity: 50%;
+  }
+}

@@ -1,0 +1,23 @@
+.container{
+  @apply flex flex-col gap-10 items-center bg-[#342B39] h-full py-8 rounded-md;
+
+  h1{
+    @apply text-2xl font-bold;
+  }
+
+  .schedule{
+    @apply w-full px-10;
+
+    .date{
+      @apply flex flex-row justify-between text-xl;
+    }
+  }
+
+  .scheduleBlock{
+    @apply flex flex-col gap-2;
+  }
+
+  .scheduleBlock{
+    @apply w-full;
+  }
+}

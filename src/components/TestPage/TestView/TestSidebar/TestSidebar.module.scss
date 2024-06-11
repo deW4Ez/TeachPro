@@ -1,0 +1,11 @@
+.container{
+  @apply flex flex-col bg-[#342B39] w-full px-10 pt-7 pb-10 rounded-xl items-center gap-5;
+
+  h2{
+    @apply text-xl
+  }
+
+  .time{
+    @apply text-4xl text-center;
+  }
+}

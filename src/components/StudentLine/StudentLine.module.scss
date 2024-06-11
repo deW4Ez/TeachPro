@@ -1,0 +1,7 @@
+.container{
+  @apply flex flex-row justify-between items-center rounded-xl px-4 py-2;
+
+  &:hover{
+    @apply bg-[#342B39] cursor-pointer;
+  }
+}

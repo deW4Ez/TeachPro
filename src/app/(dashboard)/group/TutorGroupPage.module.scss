@@ -1,0 +1,11 @@
+.container{
+  @apply flex flex-row gap-4;
+
+  .tutorPage{
+    @apply w-[630px] bg-[#342B39] rounded-xl p-14;
+  }
+
+  .extraPage{
+    @apply w-[437px];
+  }
+}

@@ -1,0 +1,27 @@
+.outContainer{
+  @apply flex flex-col gap-4;
+}
+
+.container{
+  @apply flex flex-col bg-[#342B39] w-full px-10 pt-7 pb-10 rounded-xl items-center gap-5;
+
+  h2{
+    @apply text-center
+  }
+
+  .time{
+    @apply bg-[#342B39] border-white border w-[100%] rounded-md p-2;
+  }
+}
+
+.taskInfo{
+  @apply flex flex-col gap-4 px-10 py-7 bg-[#342B39] rounded-xl;
+
+  .subInfo{
+    @apply flex flex-col gap-1;
+  }
+
+  input{
+    @apply bg-[#342B39] border-white border w-[100%] rounded-md p-2;
+  }
+}

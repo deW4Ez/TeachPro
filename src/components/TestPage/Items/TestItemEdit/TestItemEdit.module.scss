@@ -1,0 +1,64 @@
+.container{
+  @apply flex flex-col w-full bg-[#342B39] gap-4 rounded-md px-10 py-7;
+
+  .edit{
+    @apply flex flex-row-reverse p-0 m-0 gap-4;
+
+    .typeQuest{
+      @apply flex w-max p-2 bg-[#342B39] border border-white rounded-md;
+    }
+
+    .check{
+      @apply flex p-2 rounded-full cursor-pointer;
+      &:hover{
+        @apply bg-[#584961]
+      }
+
+      &:active{
+        opacity: 60%;
+      }
+    }
+  }
+
+  .questBlock{
+    @apply flex flex-col gap-4;
+
+    h1{
+      @apply text-xl
+    }
+
+    .addVariant{
+      @apply flex flex-row gap-2 justify-center items-center border border-white rounded-md py-2 mt-2 text-sm cursor-pointer;
+
+      &:hover{
+        @apply bg-[#514955]
+      }
+
+      &:active{
+        opacity: 60%;
+      }
+
+    }
+
+    .answerBlock{
+      @apply flex flex-row gap-4 items-center ;
+
+      .validation{
+        @apply cursor-pointer p-2 rounded-full; 
+
+        &:hover{
+          @apply bg-[#514955]
+        }
+  
+        &:active{
+          opacity: 60%;
+        }
+      }
+    }
+
+    input{
+      @apply bg-[#342B39] border-white border w-[100%] rounded-md p-2;
+    }
+  }
+}
+

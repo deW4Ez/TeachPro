@@ -1,0 +1,11 @@
+.container{
+  @apply flex flex-col gap-14;
+
+  .tasksBlock{
+    @apply flex flex-col gap-5;
+  }
+  
+  h1{
+    @apply font-bold text-3xl;
+  }
+}

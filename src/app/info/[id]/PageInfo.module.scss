@@ -1,0 +1,27 @@
+.container{
+  @apply flex flex-col w-[full] min-h-[90vh] pt-[5vh] justify-center items-center gap-4;
+
+  .backLine{
+    @apply flex flex-row w-[70vw] px-2;
+  }
+
+  .backArrow{
+    @apply flex flex-row gap-2 py-2 px-4 rounded-3xl cursor-pointer;
+
+    &:hover{
+      @apply bg-[#342B39];
+    }
+
+    &:active{
+      opacity: 60%;
+    }
+  }
+
+  .headerBlock{
+    @apply w-[70vw];
+  }
+
+  .infoBlock{
+    @apply grid grid-cols-2 gap-4 min-h-[60vh] w-[70vw];
+  }
+}

@@ -1,0 +1,13 @@
+.container{
+  @apply flex flex-row py-2 gap-3 px-4 rounded-xl;
+  
+
+  cursor: pointer;
+
+  &:hover{
+    @apply bg-[#342B39];    
+  }
+  &:active{
+    opacity: 70%;
+  }
+}

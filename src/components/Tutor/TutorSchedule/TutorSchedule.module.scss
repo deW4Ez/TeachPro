@@ -1,0 +1,15 @@
+.container{
+  @apply flex flex-col gap-14;
+
+  h1{
+    @apply font-bold text-3xl;
+  }
+
+  .scheduleBlock{
+    @apply flex flex-col gap-4;
+  }
+
+  .date{
+    @apply text-2xl;
+  }
+}

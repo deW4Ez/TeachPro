@@ -1,0 +1,15 @@
+.container{
+  @apply flex flex-row items-center gap-4 text-2xl font-bold px-14 py-10 bg-[#342B39] rounded-md justify-between;
+
+  .profileBlock{
+    @apply flex flex-row items-center gap-4;
+  }
+
+  .debt{
+    @apply flex flex-col gap-4 items-end;
+  }
+
+  .debtPrice{
+    @apply flex flex-row;
+  }
+}

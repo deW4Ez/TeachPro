@@ -1,0 +1,11 @@
+.outside{
+  @apply flex flex-col items-center justify-center w-full h-[90vh];
+}
+
+.container{
+  @apply flex flex-col gap-4 w-[30vw] bg-[#1E1921] items-center py-10 rounded-xl;
+
+  .changeLogIn{
+    @apply flex justify-center cursor-pointer border border-white w-[10vw] py-2 rounded-md
+  }
+}

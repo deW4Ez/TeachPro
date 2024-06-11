@@ -1,0 +1,27 @@
+.container{
+  @apply flex justify-center bg-[#342B39] rounded py-2;
+
+  &_red{
+    @extend .container;
+    @apply bg-[#572F2C] mt-8;
+    
+  }
+
+  &_green{
+    @extend .container;
+    @apply bg-[#3F5437];
+  }
+
+  &_active{
+    @extend .container;
+    @apply border-2 border-white;
+  }
+
+  &:hover{
+    @apply bg-[#4a424d] cursor-pointer;
+  }
+  
+  &:active{
+    opacity: 50%;
+  }
+}

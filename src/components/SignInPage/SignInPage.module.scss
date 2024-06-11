@@ -1,0 +1,30 @@
+.container{
+  @apply flex flex-col gap-4 items-center py-10 rounded-xl;
+  
+  > h1{
+    @apply text-4xl font-bold;
+  }
+
+  > form{
+    @apply flex flex-col gap-5 items-center;
+    
+    .component{
+      @apply flex flex-col gap-2
+    }
+
+    .input{
+      @apply bg-[#151117] w-full h-10 border border-white rounded-md px-2;
+      color:white;
+      
+    }
+
+    .submit{
+      @apply text-xl w-full py-2 cursor-pointer rounded-md bg-[#3E3443];
+
+      &:active{
+        opacity: 60%;
+        background-color: #342B39;
+      }
+    }
+  }
+}

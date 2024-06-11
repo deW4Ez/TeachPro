@@ -1,0 +1,7 @@
+.container{
+  @apply flex flex-col w-full gap-4;
+
+  .selectStudents{
+    @apply flex w-full p-2 bg-[#342B39] border border-white rounded-md;
+  }
+}

@@ -1,0 +1,12 @@
+.container{
+  @apply flex flex-row justify-between items-center px-4 py-1 rounded-xl cursor-pointer;
+
+  &:hover{
+    @apply bg-[#514358];
+  }
+
+  &_active{
+    @extend .container;
+    @apply bg-[#514358];
+  }
+}

@@ -1,0 +1,11 @@
+.container{
+  @apply flex flex-col w-full gap-4 items-center mt-14;
+
+  .addBlock{
+    @apply flex justify-center items-center border border-white w-full rounded-md cursor-pointer py-10;
+
+    &:hover{
+      opacity: 60%;
+    }
+  }
+}

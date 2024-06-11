@@ -1,0 +1,7 @@
+.container{
+  @apply flex flex-row w-full bg-[#342B39] rounded gap-5 justify-center py-5 px-10 items-center;
+
+  .name{
+    @apply text-2xl;
+  }
+}

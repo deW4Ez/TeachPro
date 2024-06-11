@@ -1,0 +1,15 @@
+.container{
+  @apply flex flex-col justify-center items-center h-[90vh];
+
+  .block{
+    @apply flex flex-col gap-10 text-center p-10 bg-[#342B39] rounded-md;
+  }
+
+  .dataBlock{
+    @apply flex flex-col gap-4 text-2xl;
+
+    .name{
+      @apply font-bold
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.container{
+  @apply flex flex-row gap-4 text-white w-full min-h-[90vh] justify-center mt-[5vh];
+
+  .testSidebar{
+    @apply pt-14 w-[15vw];
+  }
+
+  .mainContainer{
+    @apply w-[630px];
+  }
+
+  .testExtra{
+    @apply pt-14 w-[20vw]
+  }
+}
